@@ -32,7 +32,7 @@ namespace BMICalculator
 
         [Display(Name = "Inches")]
         [Range(0, 11, ErrorMessage = "Inches must be between 0 and 11")]                              // 12 inches in a foot
-        public int HeightInches { get; set; }
+        public int HeightInches { get; set; }                                                           //adding this comment to test deployment
 
         // calculate BMI, display to 2 decimal places
         [Display(Name = "Your BMI is")]
